@@ -14,15 +14,18 @@ body {
     width: 900px;
     display: flex;
     overflow-x: scroll;
+    /* Baad mein ye flex ke baad */
 }
 
 .gallery div {
     width: 100%;
     display: grid;
     grid-template-columns: auto auto auto;
+    /* Three image in one row*/
     grid-gap: 20px;
     padding: 10px;
     flex: none;
+    /* Baad mein add krna hai udhar or images lga ke */
 }
 
 .gallery div img {
@@ -32,6 +35,7 @@ body {
     border-radius: 10px;
 }
 
+/* upar overflow hta ke */
 .gallery::-webkit-scrollbar {
     display: none;
 }
